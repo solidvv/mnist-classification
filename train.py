@@ -1,3 +1,5 @@
+import os
+
 import torch
 from torch import nn
 from torch.nn import functional as F
@@ -10,6 +12,7 @@ test_mnist_data = MNIST('.', train=False, transform=torchvision.transforms.ToTen
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(f"Device: {device}")
+os.makedirs('checkpoints', exist_ok=True)
 
 train_data_loader = torch.utils.data.DataLoader(
     train_mnist_data,
