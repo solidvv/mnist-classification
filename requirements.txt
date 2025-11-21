@@ -1,0 +1,9 @@
+numpy
+math
+torch
+torchvision
+matplotlib
+seaborn
+sklearn
+os
+IPython
