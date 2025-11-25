@@ -1,4 +1,4 @@
-# 🧠 MNIST CNN Classifier with Deep Diagnostics
+# MNIST CNN Classifier with Deep Diagnostics
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/solidvv/mnist-classification/blob/main/mnist_full_analysis.ipynb)
 
@@ -28,6 +28,6 @@ Unlike standard tutorials, this project focuses on **production-ready practices*
 ├── train.py                   # Training and evaluation scripts
 ├── mnist_full_analysis.ipynb  # Main Notebook: Training, Inference & Visualizations
 ├── requirements.txt           # Project dependencies
-
 └── README.md                  # Project documentation
+
 
